@@ -26,8 +26,8 @@ export function CarrouselHobby() {
 
     const totalSlides = slides.length;
     tl.current = gsap.to(slider, {
-      x: (-slideWidth * totalSlides) / 2,
-      duration: totalSlides * 14,
+      x: -slideWidth * totalSlides,
+      duration: totalSlides * 5,
       ease: 'linear',
       repeat: -1,
     });

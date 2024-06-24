@@ -19,7 +19,12 @@ const config: Config = {
         title: ['"PP Neue Montreal Book"', 'normal'],
         japan: ['"Osaka Japan"', 'normal'],
         text: ['"Amstelvar Roman"', 'normal'],
-        impact: ['Abril Fatface', 'regular'],
+      },
+      colors: {
+        lightgray: '#282828',
+        secondary: '#E15E5E',
+        primary: '#FFFFFF',
+        background: '#111111',
       },
     },
   },

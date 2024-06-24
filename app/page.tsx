@@ -13,7 +13,7 @@ metadata.description =
 
 export default function Page() {
   return (
-    <div className="w-full">
+    <div className="">
       <FixedMenu></FixedMenu>
       <Home></Home>
       <AboutMe></AboutMe>

@@ -1,3 +1,5 @@
+import { CarrouselHobby } from './carrouselHobby';
+
 export function AboutMe() {
   return (
     <div className="flex flex-col items-center justify-center text-center w-2/3 mx-auto">
@@ -10,6 +12,7 @@ export function AboutMe() {
       <a href="" className="font-title border solid p-3 my-12 font-bold text-lg">
         DOWNLOAD MY RESUME
       </a>
+      <CarrouselHobby></CarrouselHobby>
     </div>
   );
 }

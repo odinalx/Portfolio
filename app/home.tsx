@@ -2,7 +2,7 @@ export function Home() {
   return (
     <div className="h-screen w-full">
       <div>
-        <p className="font-cursive text-5xl pl-10 pt-10">ALEXANDRE Odin</p>
+        <p className="font-cursive font-bold text-5xl pl-10 pt-10">ALEXANDRE Odin</p>
       </div>
       <div className="flex items-center justify-center w-full h-full absolute text-[30rem] font-japan text-lightgray -z-[1]">
         <span className="pt-14">W</span>

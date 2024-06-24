@@ -37,6 +37,16 @@
   .scroll-snap::-webkit-scrollbar {
     display: none;
   }
+  @keyframes slide {
+    0%, 100% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
+  
+  .slider {
+    display: flex;
+    width: calc(300%); /* Ajusté pour supporter l'animation sans répétition visible */
+    animation: slide 20s linear infinite;
+  }  
 
 @font-face {
     font-family: 'Ginger';

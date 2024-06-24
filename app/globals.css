@@ -37,6 +37,38 @@
   .scroll-snap::-webkit-scrollbar {
     display: none;
   }
-  
 
-  
+@font-face {
+    font-family: 'Ginger';
+    src: url('../public/fonts/Ginger-Regular.woff2') format('woff2'),
+        url('../public/fonts/Ginger-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal Book';
+  font-style: normal;
+  font-weight: normal;
+  src: local('PP Neue Montreal Book'), url('../public/fonts/ppneuemontreal-book.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Osaka Japan';
+    src: url('../public/fonts/OsakaJapan.woff2') format('woff2'),
+        url('../public/fonts/OsakaJapan.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+  font-family: 'Amstelvar Roman';
+  src: url('../public/fonts/Amstelvar-Roman.woff2') format('woff2'),
+      url('../public/fonts/Amstelvar-Roman.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+

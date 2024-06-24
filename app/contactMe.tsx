@@ -1,7 +1,10 @@
 export function ContactMe() {
-    return (
-      <div>
-        Contact
-      </div>
-    );
-  }
+  return (
+    <div>
+      <h2 className="font-title">CONTACT ME</h2>
+      <p className="font-cursive">
+        GET IN <span>TOUCH</span>
+      </p>
+    </div>
+  );
+}

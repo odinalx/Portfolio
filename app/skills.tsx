@@ -1,7 +1,3 @@
 export function Skills() {
-    return (
-      <div>
-        Skill
-      </div>
-    );
-  }
+  return <div className="font-title">SKILLS</div>;
+}

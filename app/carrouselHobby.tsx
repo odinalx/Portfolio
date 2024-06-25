@@ -38,13 +38,6 @@ export function CarrouselHobby() {
       }
     };
   }, []);
-  const handleHover = (event) => {
-    gsap.to(event.target, { filter: 'none', duration: 0.3 }); // Supprime le filtre au survol
-  };
-
-  const handleLeave = (event) => {
-    gsap.to(event.target, { filter: 'grayscale(100%)', duration: 0.3 }); // Applique le filtre noir et blanc
-  };
 
   return (
     <div className="overflow-hidden w-full py-28">

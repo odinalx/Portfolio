@@ -14,12 +14,22 @@ const items = [
 ];
 
 export function CarrouselHobby() {
-  const sliderRef = useRef(null);
-  let tl = useRef(null);
+  const sliderRef = useRef<HTMLDivElement | null>(null);
+  let tl = useRef<gsap.core.Tween | null>(null);
 
   useEffect(() => {
     const slider = sliderRef.current;
-    const slides = slider.querySelectorAll('.slide');
+    if (!slider) {
+      console.error('Slider is null');
+      return;
+    }
+
+    const slides = slider.querySelectorAll<HTMLDivElement>('.slide');
+    if (slides.length === 0) {
+      console.error('No slides found');
+      return;
+    }
+
     const slideWidth = slides[0].offsetWidth;
 
     slider.innerHTML += slider.innerHTML;

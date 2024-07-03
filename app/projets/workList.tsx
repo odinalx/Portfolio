@@ -15,7 +15,7 @@ export function WorkList({ initialProjects }: { initialProjects: Project[] }) {
               <img
                 src={`https://strapi.odinalx.fr${project.attributes.image.data.attributes.url}`}
                 alt={project.attributes.image.data.attributes.alternativeText || project.attributes.titre}
-                className="mb-2 min-w-96 grayscale transition duration-300 ease-in-out hover:grayscale-0"
+                className="mb-2  h-96 w-auto grayscale transition duration-300 ease-in-out hover:grayscale-0"
               />
               <span className="uppercase font-serif text-3xl">{project.attributes.titre}</span>
             </Link>

@@ -11,7 +11,7 @@ export function Home() {
       </div>
       <h1 className="abril-fatface-regular h-screen flex flex-col justify-center items-center text-9xl pb-10">
         <p className="pr-72">FULL-STACK</p>
-        <p className="pl-72">DEVELOPPER</p>
+        <p className="pl-72">DÉVELOPPEUR</p>
       </h1>
     </div>
   );

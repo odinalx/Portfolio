@@ -5,11 +5,11 @@ import gsap from 'gsap';
 const items = [
   { type: 'text', content: 'ANIMES' },
   { type: 'gif', content: '/gifs/animes.gif' },
-  { type: 'text', content: 'GAMES' },
+  { type: 'text', content: 'JEUX' },
   { type: 'gif', content: '/gifs/games.gif' },
-  { type: 'text', content: 'TRAVEL' },
+  { type: 'text', content: 'VOYAGE' },
   { type: 'gif', content: '/gifs/travel.gif' },
-  { type: 'text', content: 'MUSIC' },
+  { type: 'text', content: 'MUSIQUE' },
   { type: 'gif', content: '/gifs/music.gif' },
 ];
 
